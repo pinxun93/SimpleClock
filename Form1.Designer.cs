@@ -142,6 +142,7 @@ namespace SimpleClock
             this.btnSetAlert.TabIndex = 3;
             this.btnSetAlert.Text = "設定鬧鐘";
             this.btnSetAlert.UseVisualStyleBackColor = true;
+            this.btnSetAlert.Click += new System.EventHandler(this.btnSetAlert_Click);
             // 
             // btnCancelAlert
             // 
@@ -151,6 +152,7 @@ namespace SimpleClock
             this.btnCancelAlert.TabIndex = 4;
             this.btnCancelAlert.Text = "關閉鬧鐘";
             this.btnCancelAlert.UseVisualStyleBackColor = true;
+            this.btnCancelAlert.Click += new System.EventHandler(this.btnCancelAlert_Click);
             // 
             // cmbHour
             // 
