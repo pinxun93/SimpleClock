@@ -1,0 +1,10 @@
+C:\Users\品薰\source\repos\SimpleClock\bin\Debug\SimpleClock.exe.config
+C:\Users\品薰\source\repos\SimpleClock\bin\Debug\SimpleClock.exe
+C:\Users\品薰\source\repos\SimpleClock\bin\Debug\SimpleClock.pdb
+C:\Users\品薰\source\repos\SimpleClock\obj\Debug\SimpleClock.csproj.AssemblyReference.cache
+C:\Users\品薰\source\repos\SimpleClock\obj\Debug\SimpleClock.Form1.resources
+C:\Users\品薰\source\repos\SimpleClock\obj\Debug\SimpleClock.Properties.Resources.resources
+C:\Users\品薰\source\repos\SimpleClock\obj\Debug\SimpleClock.csproj.GenerateResource.cache
+C:\Users\品薰\source\repos\SimpleClock\obj\Debug\SimpleClock.csproj.CoreCompileInputs.cache
+C:\Users\品薰\source\repos\SimpleClock\obj\Debug\SimpleClock.exe
+C:\Users\品薰\source\repos\SimpleClock\obj\Debug\SimpleClock.pdb
