@@ -29,6 +29,8 @@ namespace SimpleClock
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.txtDate = new System.Windows.Forms.TabPage();
             this.txtTime = new System.Windows.Forms.TextBox();
@@ -41,6 +43,8 @@ namespace SimpleClock
             this.cmbHour = new System.Windows.Forms.ComboBox();
             this.cmbMin = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.timerClock = new System.Windows.Forms.Timer(this.components);
+            this.timerAlert = new System.Windows.Forms.Timer(this.components);
             this.tabControl1.SuspendLayout();
             this.txtDate.SuspendLayout();
             this.SuspendLayout();
@@ -172,12 +176,21 @@ namespace SimpleClock
             this.label1.TabIndex = 7;
             this.label1.Text = ":";
             // 
+            // timerClock
+            // 
+            this.timerClock.Tick += new System.EventHandler(this.timerClock_Tick);
+            // 
+            // timerAlert
+            // 
+            this.timerAlert.Tick += new System.EventHandler(this.timerAlert_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(791, 488);
             this.Controls.Add(this.tabControl1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             this.tabControl1.ResumeLayout(false);
@@ -201,6 +214,8 @@ namespace SimpleClock
         private System.Windows.Forms.ComboBox cmbMin;
         private System.Windows.Forms.ComboBox cmbHour;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer timerClock;
+        private System.Windows.Forms.Timer timerAlert;
     }
 }
 

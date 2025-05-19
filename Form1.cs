@@ -26,6 +26,14 @@ namespace SimpleClock
 
         }
 
+        private void timerClock_Tick(object sender, EventArgs e)
+        {
 
+        }
+
+        private void timerAlert_Tick(object sender, EventArgs e)
+        {
+
+        }
     }
 }
