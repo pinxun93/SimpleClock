@@ -215,7 +215,7 @@ namespace SimpleClock
             this.txtStopWatch.Name = "txtStopWatch";
             this.txtStopWatch.Size = new System.Drawing.Size(756, 151);
             this.txtStopWatch.TabIndex = 1;
-            this.txtStopWatch.Text = "test";
+            this.txtStopWatch.Text = "00:00:00:00";
             this.txtStopWatch.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // listStopWatchLog
@@ -224,12 +224,12 @@ namespace SimpleClock
             this.listStopWatchLog.ItemHeight = 25;
             this.listStopWatchLog.Location = new System.Drawing.Point(6, 160);
             this.listStopWatchLog.Name = "listStopWatchLog";
-            this.listStopWatchLog.Size = new System.Drawing.Size(205, 229);
+            this.listStopWatchLog.Size = new System.Drawing.Size(379, 229);
             this.listStopWatchLog.TabIndex = 2;
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(218, 161);
+            this.btnStart.Location = new System.Drawing.Point(386, 155);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(96, 37);
             this.btnStart.TabIndex = 3;
@@ -240,7 +240,7 @@ namespace SimpleClock
             // btnPause
             // 
             this.btnPause.BackColor = System.Drawing.Color.Yellow;
-            this.btnPause.Location = new System.Drawing.Point(320, 161);
+            this.btnPause.Location = new System.Drawing.Point(488, 155);
             this.btnPause.Name = "btnPause";
             this.btnPause.Size = new System.Drawing.Size(96, 37);
             this.btnPause.TabIndex = 4;
@@ -250,7 +250,7 @@ namespace SimpleClock
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(218, 204);
+            this.btnReset.Location = new System.Drawing.Point(386, 198);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(96, 37);
             this.btnReset.TabIndex = 5;
@@ -260,7 +260,7 @@ namespace SimpleClock
             // 
             // btnLog
             // 
-            this.btnLog.Location = new System.Drawing.Point(320, 204);
+            this.btnLog.Location = new System.Drawing.Point(488, 198);
             this.btnLog.Name = "btnLog";
             this.btnLog.Size = new System.Drawing.Size(96, 37);
             this.btnLog.TabIndex = 6;
@@ -272,7 +272,7 @@ namespace SimpleClock
             // 
             this.btnStop.BackColor = System.Drawing.Color.Crimson;
             this.btnStop.ForeColor = System.Drawing.Color.Snow;
-            this.btnStop.Location = new System.Drawing.Point(218, 247);
+            this.btnStop.Location = new System.Drawing.Point(386, 241);
             this.btnStop.Name = "btnStop";
             this.btnStop.Size = new System.Drawing.Size(198, 37);
             this.btnStop.TabIndex = 7;
